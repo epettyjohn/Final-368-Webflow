@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;;
+  font-size: .75em;/*12px*/
+  line-height: 20px;
+}
+h1 {
+  width: 100%; /*1007px*/
+  margin: 10px 0px;
+  font-family: Varela, sans-serif;
+  color: #312239;
+  font-size: 2.375em; /*38px*/
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 2em; /*32px*/
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-family: Varela, sans-serif;
+  font-size: 1.5em; /*24px*/
+  line-height: 30px;
+  font-weight: 700;
+  color: #383038;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 1.125em;/*18px*/
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: .875em;/*14px*/
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: .75em;/*12px*/
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family: Inconsolata, monospace;
+  font-size: 1em;/*16px*/
+  line-height: 18px;
+  color: #80869e;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.container1 {
+  background-image: none;
+}
+.container2 {
+  margin-top: 2px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  background-color: white;
+  font-family: Inconsolata, monospace;
+  color: #665a6e;
+  font-size: 1.125em;/*18px*/
+  text-align: center;
+  text-decoration: none;
+}
+.quote {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8e788d;
+  font-size: 1.5625em;/*25px*/
+  line-height: 25px;
+}
+.container3 {
+  background-color: #bcbdc2;
+}
+.div {
+  color: #665a6e;
+  font-size: 1.3em;/*19px*/
+  position: relative; 
+  left: 57.59%; /*580px*/  
+  
+}
+
+.bleed {
+	position: relative; 
+	left: 55.05%;/*215px*/
+	font-family: Arial, Helvetica, sans-serif;
+  	color: #8e788d;
+  	font-size: 1.5625em;/*25px*/
+  	line-height: 25px;
+}
+.cont3 {
+  background-color: #e8dbcb;
+  color: #8e788d;
+  font-size: 1.125em;/*18px*/
+}
+.section1 {
+  background-image: url(../images/watercolorsea.jpg);
+  background-repeat: no-repeat no-repeat;
+}
+
+.section3 {
+  background-color: #f9f2df;
+}
+.section2 {
+  background-color: #322539;
+  color: #dcdcdf;
+}
+
+.light {
+	color:#f4efec; 
+	}
+	
+.miami {
+	width: 100%; 
+}
+
+#contact {
+	font-size: 1.2em
+}
+
+.cannon {
+	width: 60%; 
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+a.container2:hover {
+	background: #f0d4d0; 
+	-webkit-transition: ease-in .5s; 
+	transition: ease-in .5s; 
+	margin: 10px; 
+}
+
+/* DESKTOP*/
+@media screen and ( max-width: 1440px ) {
+      
+
+} /* end of Desktop */
+
+
+/* TABLET*/
+@media screen and ( max-width: 768px ) {
+        
+      	.miami {
+			max-width: 30%; 
+		}
+		.quote {
+			width: 50%;  
+		}
+
+} /* end of tablet */
+
+/*PHONE*/
+@media screen and ( max-width: 480px ) {
+        
+       
+        
+     
+} /* end of phone */
+
+
+
